@@ -5,11 +5,13 @@ export default function Sidebar() {
     <div className="sidebar">
          <div className="sidebarItem">
               <span className="sidebarTitle">
-                  ABOUT ME    
+                  EZEN    
               </span>
               <img src="images/about01.jpg" alt="about" />
               <p>
-              사랑의 가슴에 눈에 있다. 대고, 별과 이상은 무엇을 아니다. 수 용감하고 얼음이 커다란 방황하였으며, 굳세게 같으며, 것이다. 사랑의 위하여 것은 관현악이며, 때문이다. 
+              UI 컴포넌트 개발에 대한 새로운 관점으로 주목받고 있는 리액트(React)는
+프론트엔드 개발자가 되기 위해 꼭 알아야 할 필수 요소로 자리 잡고 있습니다.
+자바스크립트 프레임 워크의 혁신 리액트!
               </p>
           </div>
 
@@ -18,14 +20,14 @@ export default function Sidebar() {
                   CATEGORIES   
               </span>
               <ul className="sidebarList">
-                <li className="sidebarListItem">Asia</li>
-                <li className="sidebarListItem">E-Europe</li>
-                <li className="sidebarListItem">W-Europe</li>
-                <li className="sidebarListItem">N-America</li>
-                <li className="sidebarListItem">S-America</li>
-                <li className="sidebarListItem">Africa</li>
-                <li className="sidebarListItem">Australia</li>
-                <li className="sidebarListItem">ETC</li>
+                <li className="sidebarListItem">HTML</li>
+                <li className="sidebarListItem">CSS</li>
+                <li className="sidebarListItem">JAVASCRIPT</li>
+                <li className="sidebarListItem">React</li>
+                <li className="sidebarListItem">Node.js</li>
+                <li className="sidebarListItem">Next.js</li>
+                <li className="sidebarListItem">Vue</li>
+                <li className="sidebarListItem">Cordova</li>
               </ul>
           </div>
 
@@ -35,15 +37,14 @@ export default function Sidebar() {
                   TAG  
               </span>
               <div className="tagList">
-                <span className="tagListItem">미국</span>
-                <span className="tagListItem">배낭여행</span>
-                <span className="tagListItem">바캉스</span>
-                <span className="tagListItem">호캉스</span>
-                <span className="tagListItem">차박</span>
-                <span className="tagListItem">오토캡핑</span>
-                <span className="tagListItem">미국</span>
-                <span className="tagListItem">배낭여행</span>
-                <span className="tagListItem">바캉스</span>
+                <span className="tagListItem">개발</span>
+                <span className="tagListItem">웹개발</span>
+                <span className="tagListItem">개발자</span>
+                <span className="tagListItem">HTML</span>
+                <span className="tagListItem">CSS</span>
+                <span className="tagListItem">JAVASCRIPT</span>
+                <span className="tagListItem">React</span>
+                <span className="tagListItem">Node.js</span>
               </div>
           </div>
 

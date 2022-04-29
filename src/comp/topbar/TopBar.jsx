@@ -14,16 +14,15 @@ export default function TopBar() {
         </div>
         <div className="topCenter">
             <ul className="topList">
-                <li className="topListItem"><Link to="/" className="homeLink">list</Link></li>
-                <li className="topListItem"><a href="#">about</a></li>
-                <li className="topListItem"><a href="#">contact</a></li>
-                <li className="topListItem"><Link to ="/write">write</Link></li>
+                <li className="topListItem"><Link to="/" className="homeLink">캠퍼스위치</Link></li>
+                <li className="topListItem"><a href="#">수업소개</a></li>
+                <li className="topListItem"><a href="#">강사소개</a></li>
+                <li className="topListItem"><Link to ="/write">수업후기</Link></li>
                 <li className="topListItem">
                    {
                        user? ("LOGOUT") : 
                        (<span>
-                           <Link to="/Login">LOGIN</Link>
-                           <Link to="/Settings">회원가입</Link>
+                           <Link to="/Login">로그인</Link>
                        </span>)
                    }    
                 </li>
